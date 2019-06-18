@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad40d97f-873c-4717-83ee-5b588f0814da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Go/30-SubstringwithConcatenationofAllWords/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/31-NextPermutation/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/31-NextPermutation/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Go/30-SubstringwithConcatenationofAllWords/main.go">
+        <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="19">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/main_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -28,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -40,11 +62,17 @@
       <list>
         <option value="$PROJECT_DIR$/Go/29-DivideTwoIntegers/main.go" />
         <option value="$PROJECT_DIR$/Go/30-SubstringwithConcatenationofAllWords/main.go" />
+        <option value="$PROJECT_DIR$/Go/31-NextPermutation/main_test.go" />
+        <option value="$PROJECT_DIR$/Go/31-NextPermutation/main.go" />
+        <option value="$PROJECT_DIR$/Go/31-NextPermutation/search.go" />
+        <option value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/searchTest.go" />
+        <option value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go" />
+        <option value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="619" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="595" />
     <option name="width" value="1248" />
     <option name="height" value="1031" />
   </component>
@@ -71,13 +99,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="29-DivideTwoIntegers" type="462c0819:PsiDirectoryNode" />
+              <item name="31-NextPermutation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="30-SubstringwithConcatenationofAllWords" type="462c0819:PsiDirectoryNode" />
+              <item name="33-SearchinRotatedSortedArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -86,10 +114,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558708385659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560757822805" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -109,12 +137,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Test.TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Go/30-SubstringwithConcatenationofAllWords/main.go" />
+      <package value="leitty/leetcode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go/31-NextPermutation/main.go" />
       <package value="leitty/leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -128,8 +165,33 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestNextPermutation in leitty/leetcode/Go/31-NextPermutation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/Go/31-NextPermutation" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leitty/leetcode/Go/31-NextPermutation" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestNextPermutation$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leitty/leetcode/Go/33-SearchinRotatedSortedArray" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSearch$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" />
+        <item itemvalue="Go Test.TestNextPermutation in leitty/leetcode/Go/31-NextPermutation" />
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -146,12 +208,46 @@
       <option name="presentableId" value="Default" />
       <updated>1558576337205</updated>
       <workItem from="1558576339105" duration="7555000" />
-      <workItem from="1558601772910" duration="9893000" />
+      <workItem from="1558601772910" duration="10288000" />
+      <workItem from="1559200483068" duration="7985000" />
+      <workItem from="1560734700971" duration="5979000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 03m 59s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 06m 36s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 20m 37s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 21m 27s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 23m 01s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 38m 50s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 39m 15s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 41m 20s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 43m 20s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 43m 25s.xml">
+      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17448000" />
+    <option name="totallyTimeSpent" value="31807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,10 +259,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="0" width="832" height="687" extended-state="0" />
+    <frame x="397" y="0" width="832" height="687" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25581396" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23514211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -175,13 +271,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2054054" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5099099" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25765765" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46126127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291367" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32792792" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -233,8 +329,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Go/30-SubstringwithConcatenationofAllWords/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
+        <state relative-caret-position="19">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/26-RemoveDuplicatesfromSortedArray/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/27-RemoveElement/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/search.go" />
+    <entry file="file://$PROJECT_DIR$/Go/1-twosum/twoSum_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="33" />
         </state>
       </provider>
     </entry>
