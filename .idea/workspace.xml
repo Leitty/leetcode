@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad40d97f-873c-4717-83ee-5b588f0814da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Go/31-NextPermutation/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go/31-NextPermutation/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,28 +15,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go">
+        <entry file="file://$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="33" />
+            <state relative-caret-position="114">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go">
+        <entry file="file://$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="133">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -68,21 +57,24 @@
         <option value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/searchTest.go" />
         <option value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search_test.go" />
         <option value="$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go" />
+        <option value="$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange_test.go" />
+        <option value="$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="595" />
-    <option name="width" value="1248" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="477" />
+    <option name="y" value="3" />
+    <option name="width" value="1338" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,13 +91,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="31-NextPermutation" type="462c0819:PsiDirectoryNode" />
+              <item name="33-SearchinRotatedSortedArray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="33-SearchinRotatedSortedArray" type="462c0819:PsiDirectoryNode" />
+              <item name="34-FindFirstandLastPositionofElementinSortedArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,7 +109,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560757822805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561972586650" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -137,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray">
+  <component name="RunManager" selected="Go Test.TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -152,15 +144,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Go/31-NextPermutation/main.go" />
-      <package value="leitty/leetcode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go/29-DivideTwoIntegers/main.go" />
       <package value="leitty/leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -187,13 +170,24 @@
       <pattern value="^TestSearch$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSearchRange$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Go Test.TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" />
         <item itemvalue="Go Test.TestNextPermutation in leitty/leetcode/Go/31-NextPermutation" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -211,43 +205,47 @@
       <workItem from="1558601772910" duration="10288000" />
       <workItem from="1559200483068" duration="7985000" />
       <workItem from="1560734700971" duration="5979000" />
+      <workItem from="1561100061444" duration="37000" />
+      <workItem from="1561100109758" duration="1394000" />
+      <workItem from="1561106166986" duration="2782000" />
+      <workItem from="1561969696565" duration="2879000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 03m 59s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 03m 52s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 06m 36s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 04m 38s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 20m 37s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 05m 33s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 21m 27s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 06m 00s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 23m 01s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 06m 35s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 38m 50s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 07m 15s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 39m 15s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 09m 35s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 41m 20s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 10m 07s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 43m 20s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 11m 09s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSearch_in_leitty_leetcode_Go_33-SearchinRotatedSortedArray - 2019.06.17 at 10h 43m 25s.xml">
-      <configuration name="TestSearch in leitty/leetcode/Go/33-SearchinRotatedSortedArray" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSearchRange_in_leitty_leetcode_Go_34-FindFirstandLastPositionofElementinSortedArray - 2019.07.01 at 17h 11m 42s.xml">
+      <configuration name="TestSearchRange in leitty/leetcode/Go/34-FindFirstandLastPositionofElementinSortedArray" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31807000" />
+    <option name="totallyTimeSpent" value="38899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,10 +257,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="0" width="832" height="687" extended-state="1" />
+    <frame x="318" y="2" width="892" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23514211" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21261115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25765765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31949458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46126127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,10 +357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/main_test.go">
+    <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="19">
+          <caret line="2" selection-start-line="2" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -373,10 +371,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Go/33-SearchinRotatedSortedArray/search.go">
+    <entry file="file://$PROJECT_DIR$/Go/31-NextPermutation/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="33" />
+        <state relative-caret-position="247">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Go/34-FindFirstandLastPositionofElementinSortedArray/searchRange.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
